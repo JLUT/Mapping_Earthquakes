@@ -42,17 +42,3 @@ d3.json(torontoData).then(function(data) {
       
   
 
-// L.geoJson(data, {
-//     // We turn each feature into a marker on the map.
-//         pointToLayer: function(feature, latlng) {
-//         console.log(feature);
-//         return L.marker(latlng)
-//         .bindPopup("<h2>Airline :" + feature.properties.airline + "</h2><hr><h3>Destination:" + feature.properties.dst + "</h3>");
-
-//         }
-   
-
-//     }).addTo(map);
-
-
-// });
